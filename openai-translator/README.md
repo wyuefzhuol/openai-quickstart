@@ -36,7 +36,8 @@ The OpenAI Translator is still in its early stages of development, and I'm activ
 - [ ] Implement a graphical user interface (GUI) for easier use.
 - [ ] Add support for batch processing of multiple PDF files.
 - [ ] Create a web service or API to enable usage in web applications.
-- [ ] Add support for other languages and translation directions.
+- [X] Add support for other translation directions.
+- [ ] Add support for other source languages.
 - [ ] Add support for preserving the original layout and formatting of the source PDF.
 - [ ] Improve translation quality by using custom-trained translation models.
 
@@ -71,6 +72,7 @@ GLMModel:
 common:
   book: "test/test.pdf"
   file_format: "markdown"
+  target_language: "中文"
 ```
 
 Then run the tool:
@@ -88,7 +90,7 @@ You can also specify the settings directly on the command line. Here's an exampl
 ```bash
 # Set your api_key as an env variable
 export OPENAI_API_KEY="sk-xxx"
-python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo
+python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_language=法语
 ```
 
 And an example of how to use the GLM model:
