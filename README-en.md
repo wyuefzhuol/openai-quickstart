@@ -141,3 +141,42 @@ This project is licensed under the terms of the Apache-2.0 License . See the [LI
 Django Peng - pjt73651@email.com
 
 Project Link: https://github.com/DjangoPeng/openai-quickstart
+
+## Homework 1: GPT-4V use
+
+### Uploaded sample image own.jpeg & own2.jpeg: 
+
+[own.jpeg](https://github.com/wyuefzhuol/openai-quickstart/blob/main/openai_api/images/own.jpeg)
+[own2.jpeg](https://github.com/wyuefzhuol/openai-quickstart/blob/main/openai_api/images/own2.jpeg)
+
+### Code:
+
+[gpt-4v.ipynb](https://github.com/wyuefzhuol/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb)
+
+### Commits:
+
+[AI recognizes handwriting](https://github.com/wyuefzhuol/openai-quickstart/commit/a4d5ab1bad560d9d39866fdda7cd7423b3a6b442)
+[Result for AI recognizes handwriting](https://github.com/wyuefzhuol/openai-quickstart/commit/7e9a69a0b8dba9c8d7bfcd9068168c0aac4e2145)
+[Remarks](https://github.com/wyuefzhuol/openai-quickstart/commit/7c94ad2fc6f35ba10ded1ed7925a00563e02d59a)
+[test AI recognizes handwriting again](https://github.com/wyuefzhuol/openai-quickstart/commit/add625813cb51ea90d1cc34503239997ed1cefb2)
+
+## Homework 2: ai translator use
+
+### Result is save in /openai-translated/tests/test_translated.md
+
+[test_translated.md](https://github.com/wyuefzhuol/openai-quickstart/blob/main/openai-translator/tests/test_translated.md)
+
+### Commits:
+
+[Add support for other translation directions.](https://github.com/wyuefzhuol/openai-quickstart/commit/a231cdddfddfd14f4cff96ecf134d5cdbd1f2149)
+[Test other translate direction](https://github.com/wyuefzhuol/openai-quickstart/commit/f68c2673859de44b2923064884f23e2bea44d01c)
+
+## Homework 3: supply langchain chains
+
+### Code:
+
+[router_chain.ipynb](https://github.com/wyuefzhuol/openai-quickstart/blob/main/langchain/jupyter/chains/router_chain.ipynb)
+
+### Commits:
+
+[test route chain](https://github.com/wyuefzhuol/openai-quickstart/commit/597446defb96876d34ce7d39619dda06543300e3)
