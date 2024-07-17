@@ -104,3 +104,12 @@ python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_UR
 ## License
 
 This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
+
+
+## Add support for other translation directions
+
+```bash
+python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_language=Arabic
+```
+
+Sample in tests/test_translated.md, the language is Arabic.

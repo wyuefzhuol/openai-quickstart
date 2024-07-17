@@ -104,6 +104,10 @@ python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_UR
 
 该项目采用 GPL-3.0 许可证。有关详细信息，请查看 [LICENSE](LICENSE) 文件。
 
+## 添加对其他翻译方向的支持
 
+```bash
+python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_language=Arabic
+```
 
-
+生成样例在 tests/test_translated.md中，样例为翻译成阿拉伯语。
