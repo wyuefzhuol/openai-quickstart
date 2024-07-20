@@ -180,3 +180,9 @@ Project Link: https://github.com/DjangoPeng/openai-quickstart
 ### Commits:
 
 - [test route chain](https://github.com/wyuefzhuol/openai-quickstart/commit/597446defb96876d34ce7d39619dda06543300e3)
+
+## Homework 4: chatbot
+
+### Commits:
+
+- [shipping chatbot](https://github.com/wyuefzhuol/openai-quickstart/commit/2f8c0cd0d8f30c61d1efe7b8faa07648abd962bf)
